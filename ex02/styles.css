@@ -1,0 +1,97 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center; /* Mantém os títulos centralizados */
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center; /* Centraliza o conteúdo da div apenas na página inicial */
+}
+.container a{
+    color: white;
+}
+.content{
+    text-align:left;
+}
+
+#Quote > p {
+    text-align: center;
+}
+
+p {
+    padding: 0 15px;
+    color: #666;
+    margin: 0px 80px 0px;
+}
+#videos > p {
+    margin: 10px 380px;
+    text-align: justify;
+
+}
+
+a {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    background-color: #007BFF;
+}
+
+a.link-rotina {
+    background-color: #28a745; /* Cor verde para "Minha Rotina Diária" */
+}
+
+a.link-videos {
+    background-color: #007BFF; /* Cor azul para "Vídeos que gosto" */
+}
+
+a.link-contato {
+    background-color: #dc3545; /* Cor vermelha para "Contato" */
+}
+
+a:hover {
+    background-color: rgba(73, 73, 73, 0.827); /* Efeito hover com fundo semi-transparente */
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: #ccc;
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #333; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
+}
+
+iframe {
+    margin: 0 auto;
+    border-radius: 10px;
+    display: block;
+}
+
+

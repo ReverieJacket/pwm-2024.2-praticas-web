@@ -1,0 +1,137 @@
+
+#main, #paragrafo {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+ul {
+    list-style:none;
+    padding: 0;
+    text-align: start;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+/* Estilo para a página de fundo e H1 */
+#background {
+    background-image: url(/ex04/images/background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.styled-h1 {
+    color: white;
+    background-color: red;
+    border: 2px solid green;
+    padding: 10px;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+
+/*
+Quando se usa padding, o CSS ajusta o espaço interno do div, fazendo 
+com que o #green-block fique visível. O padding de 25px do div
+gera altura, mesmo com conteúdo vazio.
+
+Já, o #red-block tem padding: 0, e como não há conteúdo dentro dele, 
+ele é reduzido a uma altura de 0px. Por isso ele desaparece na página, 
+embora o espaço horizontal (largura de 700px) ainda exista.
+
+*/
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+#green-block {
+    background-color: green;
+    padding: 25px;
+    width: 700px;
+}
+#red-block {
+    background-color: red;
+    padding: 0px;
+    width: 700px;
+}
+.voltar{
+    margin-top: 30px;
+    text-align: center;
+    color: blue
+}
+.voltar > a{
+    color: blue;
+}
+#voltar-branco {
+    text-align:center;
+    margin-top: 87vh;
+}
+#voltar-branco > a{
+    color:white;
+}
+
+/* Estilo para parágrafo e links */
+.styled-paragraph {
+    font-family: Arial, sans-serif;
+    text-decoration: underline;
+    margin: 20px 0;
+}
+
+.custom-link {
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    color: black;
+}
+
+/* Estilo para a loja de calçados */
+.product-grid {
+    width: 100%;
+    display: flex;
+}
+.product-item{
+    background-color: green;
+    flex: 1;
+    max-width: 25%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.product-item img{
+    max-width:80%;
+    max-height: 160px;
+}
+
+.item-info{
+    font-size: large;
+    font-family: Arial, san-serif;
+    font-weight: bold;
+    font-style: oblique;
+    margin-left: 30px;
+    color: white;
+
+}
+.store-footer{
+    background-color: gray;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+
+
