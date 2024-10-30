@@ -22,7 +22,7 @@ a {
 
 /* Estilo para a página de fundo e H1 */
 #background {
-    background-image: url(/ex04/images/background.jpeg);
+    background-image: url("../images/background.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
