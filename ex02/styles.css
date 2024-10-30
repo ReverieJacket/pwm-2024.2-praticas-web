@@ -39,10 +39,16 @@ p {
     color: #666;
     margin: 0px 80px 0px;
 }
+
 #videos > p {
     margin: 10px 380px;
     text-align: justify;
 
+}
+.contato{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
 }
 
 a {
@@ -54,6 +60,7 @@ a {
     border-radius: 5px;
     background-color: #007BFF;
 }
+
 
 a.link-rotina {
     background-color: #28a745; /* Cor verde para "Minha Rotina Diária" */
